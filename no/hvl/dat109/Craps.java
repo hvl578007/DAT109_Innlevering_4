@@ -211,8 +211,8 @@ public class Craps
 
   // line 107 "../../../craps.ump"
    public static  void main(String [] args){
-    Thread.currentThread().setUncaughtExceptionHandler(new UmpleExceptionHandler());
-    Thread.setDefaultUncaughtExceptionHandler(new UmpleExceptionHandler());
+    Thread.currentThread().setUncaughtExceptionHandler(new no.hvl.dat109.Craps.UmpleExceptionHandler());
+    Thread.setDefaultUncaughtExceptionHandler(new no.hvl.dat109.Craps.UmpleExceptionHandler());
     Terning t1 = new Terning();
     Terning t2 = new Terning();
     Kopp kopp = new Kopp(t1, t2);
